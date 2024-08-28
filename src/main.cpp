@@ -192,7 +192,7 @@ int main(int argc, char *argv[])
                 std::string("GRAV. FORCE: ").append(std::to_string(gravityForce)).c_str(),
                 5, 55, 18, GREEN);
             DrawText(
-                std::string("GRAV. REVERSED: ").append((gravityDirection == 0) ? "DISABLED" : ((gravityDirection == 1) ? "NORMAL" : "REVERSED")).c_str(),
+                std::string("GRAV. MODE: ").append((gravityDirection == 0) ? "DISABLED" : ((gravityDirection == 1) ? "NORMAL" : "REVERSED")).c_str(),
                 5, 75, 18, GREEN);
             DrawText(
                 std::string("GRAV. POS.").c_str(),

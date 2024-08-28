@@ -1,3 +1,4 @@
 cd build
 make
-main
+cd ..
+.\build\main
