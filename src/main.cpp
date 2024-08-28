@@ -3,8 +3,8 @@
 #include <cstdint>
 #include <string>
 #include <time.h>
-#include "raylib/raylib.h"
-#include "raylib/raymath.h"
+#include "raylib.h"
+#include "raymath.h"
 
 struct Dot
 {
